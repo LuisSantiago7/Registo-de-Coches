@@ -1,0 +1,154 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#logo{
+    text-align: center;
+}
+#logo img{
+    width: 25rem;
+}
+
+.inputsAutos{
+    text-align: center;
+    margin-top: 5rem;
+}
+.inputsAutos #listAutos{
+    margin: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    width:15rem;
+    
+}
+
+.inputsAutos #listAutos:hover{
+    cursor: pointer;
+}
+.inputsAutos input{
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 1rem;
+    width: 11rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+                0 0 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.inputsAutos input:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 1.2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),
+    0 0 5px rgba(0, 0, 0, 0.5);
+}
+.inputsAutos input:not(hover){
+    cursor: pointer;
+    transform: scale(1);
+    transition: 1.2s;
+}
+.inputsAutos input:active{
+    background-color: #ffffff;
+    transform: scale(1.2);
+}
+.hidden{
+    display: none;
+}
+
+/*Bill Auto*/
+
+#billSaleAuto{
+    background-color: #F7F7F7;
+    margin: auto;
+    margin-top: 3.5rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    width: 45rem;
+    height: 55rem;
+}
+
+#billSaleAuto img{
+    margin: 1rem 1rem 1rem 1rem;
+    width: 7rem;
+    position: absolute;
+}
+
+#billSaleAuto #infoAgencia{
+    margin-left: 10rem;
+    text-align: justify;
+}
+#infoagencia p{
+    font-weight: 100;
+    font-style: normal;
+}
+
+#brandModel{
+    border: 1px solid black;
+    width: 20rem;
+    height: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: .4rem;
+    border-radius: .5rem;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#modelYphoto{
+    display: flex;
+}
+
+#dataAuto{
+    border: 1px solid black;
+    width: 20rem;
+    height: 10rem;
+    margin-left: 1rem;
+    border-radius: .5rem;
+    font-weight: 100;
+}
+#brandModel p{
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+
+#dataAuto p{
+    margin-top: .2rem;
+    margin-left: 1rem;
+}
+
+#photoAuto img{
+    width: 22rem;
+    margin: auto;
+    margin-left: 1.2rem;
+    margin-top: -3.5rem;
+}
+#changeOfOwner{
+    border: 1px solid black;
+    width: 43rem;
+    margin: auto;
+    margin-top: 1rem;
+    height: 20rem;
+}
+#changeOfOwner p{
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+}
+#amount{
+    border: 1px solid black;
+    width: 23rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-left: 21rem;
+    height: 3.5rem;
+    text-align: center;
+    
+}
+#dateDiv{
+    width: 43rem;
+    margin: auto;
+    margin-top: 1rem;
+    height: 5rem;
+    text-align: end;
+}

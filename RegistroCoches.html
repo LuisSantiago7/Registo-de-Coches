@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name= "viewport" content="width=device-width,initial-scale=1.0">
+        <link rel= "preconnect" href="https://fonts.googleapis.com">
+        <link rel= "preconnect" href="https://fonts.gstatic.com"crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">       
+        <script src="./RegistroCoches.js"></script>
+        <link rel="stylesheet" href="./RegistroCoches.css">
+        <title>Document</title>
+    </head> 
+    <body>
+
+        <div id="logo">
+            <img src="./assets/IMG_0067 4.jpg" alt="logo">
+        </div>
+
+
+        <div id="contain" class="inputsAutos">
+            <h2>Selecciona  un  auto</h2>
+
+            <!--Lista Autos formulario-->
+            <select id="listAutos">
+            <option></option>
+
+            <!--Acura-->
+            <option>Acura NSX Concept 2012</option>
+
+            <!--Auburn-->
+            <option>Auburn Boattail Speedster 8-115 1931</option>
+
+            <!--Audi-->
+            <option>Audi R8 2016</option>
+            <option>Audi R8 4S coupe V10 2019</option>
+            <option>Audi R8 4S spyder V10 US-spec 2022</option>
+
+            <!--BMW-->
+            <option>BMW i8</option>
+
+            <!--Bugatti-->
+            <option>Bugatti Bolide 2021</option>
+            <option>Bugatti Divo 2019</option>
+            <option>Bugatti La Voiture Noire 2019</option>
+            <option>Bugatti Veyron Grand-Sport World Record Edition 2011</option>
+            <option>Bugatti W16 Mistral 2024</option>
+
+            <!--Chevrolet-->
+            <option>Chevrolet Camaro 2SS RS Convertible 2011</option>
+            <option>Chevrolet Camaro Bumblebee concept 2017</option>
+            <option>Chevrolet Camaro Convertible BlackHawks  2011</option>
+            <option>Chevrolet Camaro coupe Z28 Pace Car 2014</option>
+            <option>Chevrolet Camaro SS Indy 500 Pace Car 2016</option>
+            <option>Chevrolet Camaro SS 2020</option>
+            <option>Chevrolet Corvette C8 Stingray 2020</option>
+            <option>Chevrolet Corvette Z06</option>
+
+            <!--Devel-->
+            <option>Devel Sixteen 2014</option>
+
+            <!--Dodge-->
+            <option>Dodge Challenger SRT Hellcat WideBody 2018</option>
+            <option>Dodge Charger LD SRT Hellcat Widebody 2020</option>
+
+            <!--Duesenberg-->
+            <option>Duesenberg Model J Willoughby Limousine 1931</option>
+
+            <!--Ferrari-->
+            <option>Ferrari 458 Italia 2009</option>
+            <option>Ferrari 488 GTB 2016</option>
+            <option>Ferrari F8 Tributo 2019</option>
+            <option>Ferrari F40 1987</option>
+            <option>Ferrari FXX-K 2015</option>
+            <option>Ferrari SF90 Stradale 2020</option>
+
+            <!--Ford-->
+            <option>Ford Mustang fastback 1965</option>
+            <option>Ford Mustang GT 2015</option>
+            <option>Ford Mustang coupe Shelby GT500 2020</option>
+
+            <!--Hispano-Suiza-->
+            <option>Hispano-Suiza K6 1937</option>
+
+            <!--Lamborghini-->
+            <option>Lamborghini Aventador LB834 LP 750-4 Mansory Superveloce JS1 Edition 2016</option>
+            <option>Lamborghini Aventador LB834 LP 750-4 Superveloce 2015</option>
+            <option>Lamborghini Centenario coupe 2017</option>
+            <option>Lamborghini Countach 5000 QV 1985</option>
+            <option>Lamborghini Egoista concept 2013</option>
+            <option>Lamborghini Huracan LB724 EVO RWD Spyder  2020</option>
+            <option>Lamborghini Huracan LB724 Performante  2017</option>
+            <option>Lamborghini Huracan LP 610-4 LB724 2014</option>
+            <option>Lamborghini Sesto Elemento 2011</option>
+            <option>Lamborghini Sian 2020</option>
+            <option>Lamborghini V12 Vision Gran Turismo concept 2020</option>
+            <option>Lamborghini Veneno LP750-4 2013</option>
+
+            <!--McLaren-->
+            <option>McLaren 650S Can Am 2016</option>
+            <option>McLaren 720S 2020</option>
+            <option>McLaren P1 2013</option>
+
+            <!-- Mercedes Benz-->
+            <option>Mercedes-Benz AMG GT R 2016</option>
+            <option>Mercedes-Benz AMG GT X290 63 S 4door coupe 2019</option>
+            <option>Mercedes-Benz SLS-class 2011</option>
+            <option>Mercedes-Benz Vision AVTR 2020</option>
+
+            <!--Nissan-->
+            <option>Nissan GT-R R35 2017</option>
+            <option>Nissan GT-R50 2019</option>
+
+            <!--Porsche-->
+            <option>Porsche 911 930 Turbo 1974</option>
+            <option>Porsche 911 992 Carrera cabriolet 4S 2019</option>
+
+            <!--Tesla-->
+            <option>Tesla Model S 2013</option>
+            <option>Tesla Model S P90D  2016</option>
+            <option>Tesla Model S Plaid 2021</option>
+
+            <!--WMotors-->
+            <option>W-Motors Lykan hypersport 2012</option>
+            </select>
+
+
+            <!--Input Seleccionar auto-->
+            <label for="selectAuto"><input type="button" value="Seleccionar" id="autoEleccion" onclick="getAuto()"></label>
+
+
+            <!--INPUT VENDER AUTO-->
+            <label for="forSaleAuto"><input type="button" value="VENDER AUTO" id="forSaleAuto" class ="hidden" onclick="saleAutoCar()"></label>
+
+            <!--INPUT VERAUTO-->
+            <label for="seeAuto"><input type="button" value="VER AUTO" id="seeAuto" class ="hidden" onclick="seeAutoCar()"></label>
+
+            <!--INPUT ENCENDERAUTO-->
+            <label for="onAuto"><input type="button"value="ENCENDER AUTO" id="onAuto"  class ="hidden" onclick="onAutoCar()"></label>
+            </div>
+
+
+            <div id="billSaleAuto" class="hidden">
+
+                <img src="./assets/IMG_0067 4.JPG" alt="" id="logoBill">
+
+                <div id="infoAgencia">
+                    <h2>AUTO CAR SA de CV. </h2>
+                    <p>Direccion: Av. de los Insurgentes</p>
+                    <p>Sur 1608, Crédito Constructor, Benito Juárez</p> 
+                    <p>03940 Ciudad de México, CDMX</p>
+                </div>
+
+                <div id="brandModel">
+                    <p id="brandModelCoche"></p>
+                </div>
+
+
+                <div id="modelYphoto">
+                    <div id="dataAuto">
+                        <p id="brandTexto"></p>
+                        <p id="modelTexto"></p>
+                        <p id="colorTexto"></p>
+                        <p id="yearTexto"></p>
+                        <p id="titularTexto"></p>
+                    </div>
+    
+                    <div id="photoAuto">
+                        <img src="" alt="" id="photoCocheBill">
+                    </div>
+                </div>
+
+                <div id="changeOfOwner">
+                    <p id="contract">
+                        En CDMX, a Fecha de Hoy xd
+                        REUNIDOS 
+                        INTERVIENEN    
+                        Ambas partes en su propio nombre y derecho, reconociéndose mutuamente capacidad legal suficiente para el otorgamiento del presente CONTRATO DE COMPRAVENTA DE VEHÍCULO <p id="unidad"></p>
+                    
+                    </p>
+                    </div>
+
+                <div id="amount">
+                    <h3 id="amountAuto"></h3>
+                </div>
+
+                <div id="dateDiv">
+                    <p id="dateActual">
+
+                    </p>
+                </div>
+        
+            </div>
+</body>
+</html>
